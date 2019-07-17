@@ -1,0 +1,11 @@
+[Unit]
+Description=Battery Manager service unit
+
+[Install]
+WantedBy = multi-user.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+TimeoutSec=0
+ExecStart=/usr/local/bin/batterymanager

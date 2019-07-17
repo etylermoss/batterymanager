@@ -1,0 +1,9 @@
+[Unit]
+Description=Battery Manager timer unit
+
+[Timer]
+OnBootSec=3s
+OnUnitActiveSec=2min
+
+[Install]
+WantedBy=timers.target
